@@ -1,0 +1,12 @@
+// Additional measures supporting the Sales Performance Overview page
+// and general KPI cards.
+
+Median Sales =
+MEDIAN('Sales in USD'[Gross Revenue USD])
+
+// Median is used to represent a typical transaction value while
+// reducing the effect of unusually high or low sales values.
+
+// Additional KPIs referenced throughout the report:
+//   Units Sold, Gross Revenue, Net Revenue, Total Tax,
+//   Stock, Customer Loyalty Points, Profit, Profit Margin
