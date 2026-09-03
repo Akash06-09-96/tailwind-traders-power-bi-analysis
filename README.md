@@ -20,9 +20,8 @@ Power BI Service → Executive Dashboard
 The final solution contains two interactive report pages — **Sales Performance Overview** and **Profit Performance Overview** — published to Power BI Service, where selected KPIs and visuals were combined into an **Executive Dashboard**.
 
 <p align="center">
-  <img src="./screenshots/sales-performance-overview.png" alt="Sales Performance Overview report page" width="800"/>
+  <img src="images/executive-dashboard.png" alt="Executive Dashboard" width="800">
 </p>
-
 ---
 
 ## Business Task
@@ -169,15 +168,16 @@ Profit margins stayed close to ~62% for most periods, but the trend visuals show
 ## 📊 Report Pages & Executive Dashboard
 
 **Sales Performance Overview** — KPI cards (Total Stock 14K, Units Sold 152, Median Sales $222.50), Customer Loyalty Points by Country, Median Sales by Country, Top-Selling Products by Units Sold, Median Sales Trend, and a Country slicer for interactivity.
-
 <p align="center">
-  <img src="./screenshots/profit-performance-overview.png" alt="Profit Performance Overview report page" width="800"/>
+  <img src="images/sales-performance-overview.png" alt="Sales Performance Overview" width="800">
 </p>
-
+<p align="center">
+  <img src="images/profit-performance-overview.png" alt="Profit Performance Overview" width="800">
+</p>
 **Profit Performance Overview** — KPI cards (YTD Profit Margin 62.27%, Gross Revenue $14.97K, Net Revenue $13.89K), Top Products by Net Revenue (Top 10 filter), Yearly Profit Margin by Country, Profit Margin Trend, and a Year/Quarter/Month slicer for time-based filtering.
 
 <p align="center">
-  <img src="./screenshots/executive-dashboard.png" alt="Executive Dashboard published to Power BI Service" width="800"/>
+  <img src="images/executive-dashboard.png" alt="Executive Dashboard" width="800">
 </p>
 
 The **Executive Dashboard**, published to Power BI Service, pins the most important visuals from both pages into a single view: Executive KPIs (Gross Revenue, Net Revenue, Units Sold, YTD Profit Margin), Geographic Performance (Customer Loyalty Points by Country, Yearly Profit Margin by Country), Product Performance (Top Products by Net Revenue, Top-Selling Products by Units Sold), and Trend Analysis (Median Sales Trend, Profit Margin Trend).
